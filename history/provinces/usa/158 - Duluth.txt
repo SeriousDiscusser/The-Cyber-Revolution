@@ -1,0 +1,10 @@
+owner = DAK
+controller = DAK
+add_core = DAK
+add_core = GLK
+trade_goods = fish
+life_rating = 35
+1861.1.1 = {
+	colonial = 0
+	remove_core = CAN
+}
