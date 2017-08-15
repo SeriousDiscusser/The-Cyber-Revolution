@@ -1,0 +1,34 @@
+#Move Capital
+GLK_capital = {
+	potential = {
+		tag = GLK
+		NOT = { has_country_flag = capital_moved }
+	}
+	allow = {
+		NOT = { year = 1841 }
+		owns = XXX				            #CHICAGO
+		owns = XXX			            	#DETROIT
+		owns = XXX			             	#MILWAUKEE
+	}
+	effect = {
+		prestige = 5
+		country_event = {id=55000}
+		set_country_flag = capital_moved
+	}
+}
+
+#Demand Toledo
+demand_toledo = {
+	potential = {
+		tag = GLK
+		NOT = {owns = XXX}            #TOLEDO PROV ID
+		stronger_army_than = SND
+	}
+	allow = {
+		is_secondary_power = yes
+		war_policy = Jingoism
+	}
+	effect = {
+		SND = {id=55001}
+	}
+}
