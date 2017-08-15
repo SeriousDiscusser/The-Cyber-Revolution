@@ -1,0 +1,204 @@
+#Move Capital
+country_event = {
+	id = 55000
+	title = "EVTNAME55000"
+	desc = "EVTDESC55000"
+	picture = "capitol"
+	is_triggered_only = yes
+	option = {					#CHICAGO
+		name = "EVTOPTA55000"
+		capital = XXX
+		add_country_modifier = {
+			name = centralized_administration
+			tax_efficiency = .05
+		}
+	}
+	option = {					#MILWAULKEE
+		name = "EVTOPTB55000"
+		capital = XXX
+		any_owned_province = {
+			limit = {state = Wisconsin}
+			add_province_modifier = {
+				name = cultural_hub
+				population_growth = .02
+			}
+		}
+	}
+	option = {					#DETROIT
+		name = "EVTOPTC55000"
+		capital = XXX
+		any_owned_province = {
+			limit = {state = Michigan}
+			add_province_modifier = {
+				name = industrial_hub
+				local_factory_throughput = .05
+			}
+		}
+	}
+}
+#######################################
+#Demand Toledo
+country_event = {
+	id = 55001
+	title = "EVTNAME55001"
+	desc = "EVTDESC55001"
+	picture = "toledo"
+	is_triggered_only = yes
+	option = {					#ACCEPT
+		name = "EVTOPTA55001"
+		GLK = {
+			id = 55002
+			prestige = 20
+			relation = {
+				who = SND
+				value = -100
+			}
+		}
+		SND = {
+			prestige = -20
+		}
+	}
+	option = {					#COMPROMISE
+		name = "EVTOPTB55001"
+		GLK = {id = 55003}	
+	}
+	option = {					#DENY
+		name = "EVTOPTC55001"
+		GLK = {
+			id = 55004
+			prestige = -20
+		}
+		SND = {
+			prestige = 20
+		}
+	}
+}
+
+#Sandusky Accepts!
+country_event = {
+	id = 55002
+	title = "EVTNAME55002"
+	desc = "EVTDESC55002"
+	is_triggered_only = yes
+	option = {
+		name = "EVTOPTA55002"
+		XXX = {secede_province = GLK}		#TOLEDO
+	}
+}
+
+#The Cedar Point Compromise
+country_event = {
+	id = 55003
+	title = "EVTNAME55003"
+	desc = "EVTDESC55003"
+	picture = "Cedar Point"
+	is_triggered_only = yes
+	option = {					#ACCEPT
+		name = "EVTOPTA55003"
+		prestige = 20
+		XXX = {secede_province = GLK}		#CEDAR POINT
+		SND = {
+			prestige = 20
+			relation = {
+				who = GLK
+				value = 100
+			}
+		}
+	}
+	option = {					#DENY
+		name = "EVTOPTB55003"
+		prestige = -20
+		casus_belli = {
+			target = SND
+			type = acquire_state
+			months = 24
+			
+		}
+		SND = {
+			prestige = -20
+			relation = {
+				who = GLK
+				value = -100
+			}
+		}
+	}
+}
+
+#Sandusky Denies!
+country_event = {
+	id = 55004
+	title = "EVTNAME55004"
+	desc = "EVTDESC55004"
+	is_triggered_only = yes
+	option = {
+		name = "EVTOPTA55004"
+		casus_belli = {
+			target = SND
+			type = acquire_state
+			months = 24
+			
+		}
+	}
+}
+#######################################
+#Henry Ford Emerges From Hiding
+country_event = {
+	id = 55005
+	title = "EVTNAME55005"
+	desc = "EVTDESC55005"
+	picture = "ford"
+	fire_only_once = yes
+	trigger = {
+		tag = GLK
+		year = 1881
+	}
+	mean_time_to_happen = {
+		months = 36
+	}
+	option = {					#STAYS
+		name = "EVTOPTA55005"
+		add_country_modifier = {
+			name = henry_ford
+			factory_output = .05
+		}
+	}
+	option = {					#GOES
+		name = "EVTOPTB55005"
+		set_country_flag = ford_executed
+		treasury = 50000
+	}
+}
+
+#The Dearborn Independent
+country_event = {
+	id = 55006
+	title = "EVTNAME55006"
+	desc = "EVTDESC55006"
+	picture = "dearborn_independent"
+	trigger = {
+		tag = GLK
+		NOT = { has_country_flag = ford_executed } 
+		OR = {
+			year = 1917
+			any country = {
+				invention = "The Doctrine of Fascism"
+			}
+		}
+	}
+	mean_time_to_happen = {months = 24}
+	option = {
+		name = "EVTOPTA55006"
+		any_pop = {
+			limit = {
+				OR = {
+					conciousness = 4
+					militancy = 4
+				}
+			}
+			ideology = {
+				factor = .25
+				value = fascism
+			}
+		}
+	}
+}
