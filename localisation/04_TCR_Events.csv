@@ -1,0 +1,25 @@
+﻿EVTNAME55000;Relocate the Capital;;;;;;;;;;;;;;;;;;;x;;;;
+"EVTDESC55000;The three core cities of the Great Lakes Oligarchy are vying to host the formal seat of the goverment. Previously, Milwaukee has been used as an informal meeting location. As the GLO has developed, it is now time to develop a lasting capital.;;;;;;;;;;;;;;;;;;;x;;;;"
+"EVTOPTA55000;We will choose Chicago, the administrative hub of the nation.;;;;;;;;;;;;;;;;;;;x;;;;"
+"EVTOPTB55000;We will choose Milwaukee, the cultural hub of the nation.;;;;;;;;;;;;;;;;;;;x;;;;"
+"EVTOPTC55000;We will choose Detroit, the industrial hub of the nation.;;;;;;;;;;;;;;;;;;;x;;;;"
+EVTNAME55001;The Great Lakes Oligarchy Demands Toledo!;;;;;;;;;;;;;;;;;;;x;;;;
+EVTDESC55001;The Great Lakes Oligarchy has threatened war if we do not secede what they believe are their rightful lands of the Toldeo Strip.;;;;;;;;;;;;;;;;;;;x;;;;
+"EVTOPTA55001;Our armies are no match for theirs, we must accept.;;;;;;;;;;;;;;;;;;;x;;;;"
+EVTOPTB55001;Perhaps we can offer them Cedar Point as a compromise.;;;;;;;;;;;;;;;;;;;x;;;;
+EVTOPTC55001;They will never take Toledo from us!;;;;;;;;;;;;;;;;;;;x;;;;
+EVTNAME55002;Sandusky Accepts Our Demand!;;;;;;;;;;;;;;;;;;;x;;;;
+EVTDESC55002;The people of Sandusky have accepted our demands out of fear of our mighty armies.;;;;;;;;;;;;;;;;;;;x;;;;
+EVTNAME55003;The Cedar Point Compromise;;;;;;;;;;;;;;;;;;;x;;;;
+EVTDESC55003;The people of Sandusky have offered us a compromise: they keep the Toledo strip in exchange for us gaining ownership of the valuable amusement park of Cedar Point. Cedar Point offers family fun for all ages at reasonable prices. Come try the new Gyroscopic Grinder ride today!;;;;;;;;;;;;;;;;;;;x;;;;
+"EVTOPTA55003;This is a worthy proposal, load the minivan immediately.;;;;;;;;;;;;;;;;;;;x;;;;"
+EVTOPTB55003;Going to an amusement park when there is work to do? This is a terrible deal!;;;;;;;;;;;;;;;;;;;x;;;;
+EVTNAME55004;Sandusky Denies Our Demand!;;;;;;;;;;;;;;;;;;;x;;;;
+EVTDESC55004;The people of Sandusky had the gall to deny our demands - they must pay!;;;;;;;;;;;;;;;;;;;x;;;;
+EVTNAME55005;Henry Ford Emerges from Hiding;;;;;;;;;;;;;;;;;;;x;;;;
+"EVTDESC55005;Following his escape from arrest in 1875, innovator Henry Ford has revealed himself to the public toting a show of inventions, contraptions, and other excitements. He proposes revolutionary methods to boost our nation's factory production, yet may someday challenge a threat to our government's economic control over its people. Should we let him remain in our country as a free man?;;;;;;;;;;;;;;;;;;;x;;;;"
+EVTOPTA55005;He is a valuable asset to our country and will do wonders for production.;;;;;;;;;;;;;;;;;;;x;;;;
+"EVTOPTB55005;His large following is a threat to our power, we must sieze his assets and execute him.;;;;;;;;;;;;;;;;;;;x;;;;"
+EVTNAME55006;The Dearborn Independent;;;;;;;;;;;;;;;;;;;x;;;;
+"EVTDESC55006;""The Jewish question, as every businessman knows, has been festering in silence and suspcion here in the Great Lakes Oligarchy for a long time, and none has dared discuss it because the Jewish influence was strong enough to crush the man who attempted it. The Jews are the only race whom it is 'verboten' to discuss frankly and openly, and abusing the fear they have cast over business, the Jewish leaders have gone from one excess of the other until the time has come for a protest or a surrender."";;;;;;;;;;;;;;;;;;;x;;;;"
+EVTOPTA55006;I hope Ford's ideology doesn't pose any threat to the status-quo.;;;;;;;;;;;;;;;;;;;x;;;;
