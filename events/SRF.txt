@@ -156,7 +156,7 @@ country_event = {
 	}
 	option = {
 		name = "EVTOPTA55011"
-		prestige = 100
+		prestige = 50
 		any_pop = {
 			MIL = -5
 			CON = -5
