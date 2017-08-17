@@ -7,7 +7,7 @@ REB 	= 	"countries/rebels.txt"
 
 
 ##HPM
-BNS		="countries/Baja Net Surfers.txt"
+SRF		="countries/Net Surfers.txt"
 NGY		="countries/Neo-Egypt.txt"
 GLK		="countries/Great Lakes.txt"
 SND		="countries/Sandusky.txt"
