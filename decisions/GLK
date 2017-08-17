@@ -6,9 +6,9 @@ GLK_capital = {
 	}
 	allow = {
 		NOT = { year = 1841 }
-		owns = XXX				            #CHICAGO
-		owns = XXX			            	#DETROIT
-		owns = XXX			             	#MILWAUKEE
+		owns = 163				            #CHICAGO
+		owns = 173			            	#DETROIT
+		owns = 159			             	#MILWAUKEE
 	}
 	effect = {
 		prestige = 5
