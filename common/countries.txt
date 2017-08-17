@@ -7,11 +7,12 @@ REB 	= 	"countries/rebels.txt"
 
 
 ##HPM
+BNS   ="countries/Baja Net Surfers.txt"
 NGY		="countries/Neo-Egypt.txt"
 GLK		="countries/Great Lakes.txt"
 SND		="countries/Sandusky.txt"
-BUF     ="countries/Buffalo.txt"
-WSH     ="countries/Washington.txt"
+BUF   ="countries/Buffalo.txt"
+WSH   ="countries/Washington.txt"
 JFF		="countries/Jefferson.txt"
 MNP		="countries/Manipur.txt"
 BDK		="countries/Badakhshan.txt"
