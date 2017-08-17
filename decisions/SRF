@@ -1,1 +1,21 @@
 #Search for the Big One
+big_one = {
+	potential = {
+		tag = SRF
+		NOT = {has_country_flag = surfing}
+	}
+	allow = {
+		money = 10000
+		AND = {
+			romanticism = 1
+			naval_statistics = 1
+			naval_professionalism = 1
+			
+		}
+	}
+	effect = {
+		prestige = 5
+		country_event = {id=55007}
+		set_country_flag = surfing
+	}
+}
